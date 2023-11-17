@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto' sans-serif;
+}
+:root{
+	--primary-color: #f78f7d;
+	--secondry-color: #f6bcad;
+	--info-color: #ffdcd4;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header{
+	position: relative;
+	height: 83px;
+	width: 100%
+}
+nav{
+	height: 83px;
+	width: 100%;
+	padding: 20px 0px;
+}
+.brand{
+	color: #021300;
+	font-size: 30px;
+	text-transform: capitalize;
+	font-weight: 900;
+	margin-left: 20px;
+	font-family: 'permanent', cursive;
+}
+.text-brand{
+	color: var(--primary-color);
+}
+.navigation-bar ul{
+	margin: 0px;
+	padding: 0px;
+}
+.navigation-bar ul li{
+	display: inline-block;
+	margin: 0px 25px;
+}
+.navigation-bar ul li:last-child{
+	margin-right: 0px;
+
+}
+.navigation-bar ul li a{
+	color: #222222;
+	font-size: 16px;
+	font-weight: normal;
+	font-weight: 600px;
+	text-transform: capitalize;
+}
+.navigation-bar ul li a:hover{
+	color: var(--primary-color);
+	border-bottom: var(--secondry-color);
+}
+.btn{
+	display: inline-block;
+	padding: 10px;
+	color: #222222;
+	background-color: var(--info-color);
+	border-radius: 5px;
+	font-weight: normal;
+	font-weight: 600;
+}
+.navigation-bar ul li a.btn:hover{
+	background-color: var(--primary-color);
+	color: #fff;
+}
+/*show-case*/
+.show-case{
+	width: 100%;
+	font-weight: 500;
+	font-size: 36px;
+	font-family: "times new roman";
+	text-align: center;
+	margin-top: 50px;
+	line-height: 40px;
+}
+.img{
+	width: 350px;
+	height: 260px;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.show-case i{
+	font-size: 20px;
+	color: oranged;
+	text-decoration: underline;
+}
+.footer-menu{
+	font-size: 16px;
+	background-color: lightblue;
+	width: 100%;
+	text-align: center;
+}
+.footer-menu ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+	text-align: center;
+	margin: 5px;
+}
+

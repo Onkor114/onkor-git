@@ -1,0 +1,149 @@
+:root{
+	--primary_color: #b80000;
+	--secondry_color: #332629;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	font-family: sans-serif;
+	line-height: 1.4;
+	color: #fff;
+}
+/*brand style*/
+.navbar_brand{
+	background-color: var(--primary_color);
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+}
+.brand {
+	margin-left: 150px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+/*navbar menu style*/
+
+.navbar ul{
+	display: flex;
+	margin-left: 140px;
+	margin-top: 55px;
+	padding-right: 460px;
+	position: fixed;
+}
+.navbar li{
+	width: 100%;
+	height: auto;
+	list-style: none;
+	
+}
+.navbar a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+.navbar a:hover{
+	text-decoration: underline;
+
+}
+.menu_left{
+	flex: 1;
+	font-size: 15px;
+	width: 100%;
+	padding: 10px;
+}
+.container{
+	max-width: 1355px;
+	width: 100%;
+	margin: auto;
+}
+/*heading*/
+.news{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 15px 10px;
+	width: 100%;
+	padding-right: 300px;
+}
+.news img{
+	width: 500px;
+	height: 380px;
+	border-radius: 50px;
+	margin-top: 80px;
+	filter: contrast(150%);
+}
+.heading {
+	color: black;
+	text-align: left;
+	margin-left: 30px;
+	width: 120%;
+	margin-top: 80px;
+}
+.heading h3:hover{
+	transform: scale(1.1);
+	text-decoration: underline;
+}
+/*news column four column*/
+.list{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	margin-top: 0px;
+	padding-right: 20px;
+	margin-left: 10px;
+}
+.list h3{
+	color: black;
+}
+.list img{
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	
+	border-radius: 50px;
+}
+.list h3:hover{
+	transform: scale(1.1);
+	border-radius: 50px;
+	text-decoration: underline;
+}
+.list p{
+	color: black;
+	font-size: 12px;
+	opacity: 60%;
+}
+/*footer*/
+.logo{
+	background-color: var(--primary_color);
+	padding: 20px;
+}
+.sub_footer{
+	background-color: var(--secondry_color);
+	width: 100%;
+}
+.mini_footer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: var(--secondry_color);
+	width: 100%;
+	font-size: 16px;
+	padding: 30px;
+}
+.mini_footer div{
+	padding: 15px;
+}
+.mini_footer a{
+	text-decoration: none;
+	color: red;
+}
+.copyright{
+	background-color: var(--secondry_color);
+	text-align: center;
+	
+}
+.copyright a{
+	text-decoration: none;
+	color: red;
+}

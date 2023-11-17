@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>try it yourself</title>
+	<link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+	<!--
+	<h2>i love css</h2>
+<p>My name is: Abdinour Ahmed</p>
+<!-- class selector--
+<ul>
+	<li class="underlined-text"> i am underlined!</li>
+	<li class="emboldened-text">i am emboldened!</li>
+	<li class="underlined-text emboldened-text">i am both underlined! and emboldened</li>
+</ul>
+<!-- id selector--
+<div id="blue">yes</div>
+<div id="red">no</div>
+<div class="red"> i am div with the class red</div>
+<p class="red"> i am a paragraph with the class red</p>
+<div id="green"> i am a div with the id green</div>
+<p id="green"> i am  a paragraph with the id green</p>
+<!-- group selector--
+<h1> welcome to learning css </h1>
+<p>you start learning css so be pacient and make good trying to know more</p>
+<h3>welcome</h3>
+<p>on welcome too</p>
+<!-- css insertion-->
+<!-- css colors--
+<ol> CSS Colors
+	<li>color name</li>
+	<li>hexadecimal color value</li>
+	<li>RGB color value</li>
+</ol>
+<!--color-name--
+<p id="color-name"> we love codeliber</p>
+<!-- color hexdecimal--
+<p id="hex-color"> my color depending on hecdecimal</p>
+<!-- RGB color value--
+<p id="rgb-color"> my color depending on rgb</p>
+<!-- CSS backgrounds--
+<p style="text-decoration: underline;">CSS backgrounds</p>
+<ul> 
+	<li>background-color</li>
+	<li>background-image</li>
+	<li>background-repeat</li>
+	<li>background-attachment</li>
+	<li>background-possition</li>
+</ul>
+<!-- backgrounds image-set position--
+<p style="text-decoration: underline;">backgrounds image-set position</p>
+<ul id="me"> 
+	<li>top</li>
+	<li>bottom</li>
+	<li>left</li>
+	<li>right</li>
+	<li>center</li>
+	<li>combination of the ones mentioned above(<strong>top</strong> and<strong> botton</strong> and <strong> left </strong>and <strong> right</strong> can't be combined)</li>
+	<li><percentage></li>
+	<li>edge offset values</li>
+	<li>inherit</li>
+	<li>initial</li>
+	<li>unset</li>
+</ul>
+<!-- Background attachment--
+<dl>
+	<dt>scroll</dt>
+	<dd>background is fixed relative to the element itself and does not scroll with it contents</dd>
+	<dt>fixed</dt>
+	<dd>background is fixed relative to the viewport. Even of an element has scrolling mechanism, the background does not move with the element.</dd>
+	<dt>local</dt>
+	<dd>background is fixed relative to the element's contents. if the element has a scrolling mechanism, the background painting area and background positioning area are relative to the scrollable area of the element rether than to the border framing them</dd>
+	<p ><strong> scroll, local</strong></p>
+	<p ><strong> local, scroll</strong></p>
+</dl>
+<!--CSS Border--
+<p>NONE</p>
+<div id="none">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>HIDDEN</p>
+<div id="hidden">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>DOTTED</p>
+<div id="dotted">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>DASHED</p>
+<div id="dashed">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>SOLID</p>
+<div id="solid">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>DOUBLE</p>
+<div id="double">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>GROOVE</p>
+<div id="groove">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>RIDGE</p>
+<div id="ridge">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>INSET</p>
+<div id="inset">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>OUTSET</p>
+<div id="outset">
+<dl> border style
+	<dt>none</dt>
+	<dd>displays no border</dd>
+	<dt>hidden</dt>
+	<dd>displays no border</dd>
+	<dt>dotted</dt>
+	<dd>displays a series of rounded dots</dd>
+	<dt>dashed</dt>
+	<dd>displays a series of short squer=ended dashes or line segments</dd>
+	<dt>solid</dt>
+	<dd>displays a single, straight, solid line</dd>
+	<dt>double</dt>
+	<dd>displays two staight lines</dd>
+	<dt>groove</dt>
+	<dd>displays a border with a carved appearance</dd>
+	<dt>ridge</dt>
+	<dd>displays a border with a extruded appearance </dd>
+	<dt>inset</dt>
+	<dd>displays a border that makes the elemeent appear embedded</dd>
+	<dt>outset</dt>
+	<dd>displays a border that makes the element appear embossed</dd>
+</dl>
+</div>
+<p>border width</p>
+<p>thin</p>
+<div id="thin">
+	<dl>
+		<dt>thin</dt>
+		<dd>displays a thin border</dd>
+		<dt>medium</dt>
+		<dd>displays a medium border</dd>
+		<dt>thick</dt>
+		<dd>displays a thick border</dd>
+	</dl>
+</div>
+<p>border medim</p>
+<div id="medium">
+	<dl>
+		<dt>thin</dt>
+		<dd>displays a thin border</dd>
+		<dt>medium</dt>
+		<dd>displays a medium border</dd>
+		<dt>thick</dt>
+		<dd>displays a thick border</dd>
+	</dl>
+</div>
+<p>border thick</p>
+<div id="thick">
+	<dl>
+		<dt>thin</dt>
+		<dd>displays a thin border</dd>
+		<dt>medium</dt>
+		<dd>displays a medium border</dd>
+		<dt>thick</dt>
+		<dd>displays a thick border</dd>
+	</dl>
+</div>
+<p>css border- individual slides</p>
+<div id="border">
+<ul>
+	<li>border-top-style</li>
+	<li>border-right-style</li>
+	<li>border-bottom-style</li>
+	<li>border-left-style</li>
+	<li>border-top-width</li>
+	<li>border-right-width</li>
+	<li>border-bottom-width</li>
+	<li>border-left-width</li>
+	<li>border-top-color</li>
+	<li>border-right-color</li>
+	<li>border-bottom-color</li>
+	<li>border-left-color</li>
+</ul>
+</div>
+<p>changing border width on each side </p>
+<div id="each">
+<ul>
+	<li>border-top-style</li>
+	<li>border-right-style</li>
+	<li>border-bottom-style</li>
+	<li>border-left-style</li>
+	<li>border-top-width</li>
+	<li>border-right-width</li>
+	<li>border-bottom-width</li>
+	<li>border-left-width</li>
+	<li>border-top-color</li>
+	<li>border-right-color</li>
+	<li>border-bottom-color</li>
+	<li>border-left-color</li>
+</ul>
+</div>
+<p>changing border color on each side </p>
+<div id="color">
+<ul>
+	<li>border-top-style</li>
+	<li>border-right-style</li>
+	<li>border-bottom-style</li>
+	<li>border-left-style</li>
+	<li>border-top-width</li>
+	<li>border-right-width</li>
+	<li>border-bottom-width</li>
+	<li>border-left-width</li>
+	<li>border-top-color</li>
+	<li>border-right-color</li>
+	<li>border-bottom-color</li>
+	<li>border-left-color</li>
+</ul>
+</div>
+<p>CSS border-shorthand property</p>
+<div id="shorthand">
+<ul>
+	<li>border-width</li>
+	<li>border-style</li>
+	<li>border-color</li>
+</ul>
+</div>
+<p>css borders- specifying values ONE VALUE</p>
+<div id="style">border-style with two value </div>
+<div id="width">border-width with two value</div>
+<div id="color">border-color with two value</div>
+<p>TWO VALUE</p>
+<div id="style">border-style with two value </div>
+<div id="width">border-width with two value</div>
+<div id="color">border-color with two value</div>
+<!--css margin--
+<p>margin</p>
+<div id="margin">
+	<dl>
+		<dt>margin-top</dt>
+		<dd>sets the margin area on top of an element</dd>
+		<dt>margin-right</dt>
+		<dd>sets the margin area on the right side of an element</dd>
+		<dt>margin-bottom</dt>
+		<dd>sets the margin area on bottom of an element</dd>
+		<dt>margin-left</dt>
+		<dd>sets the margin area on left of an element</dd>
+	</dl>
+</div>
+<p>css margin- shorthand property</p>
+<ul>
+	<li>margin-top</li>
+	<li>margin-right</li>
+	<li>margin-bottom</li>
+	<li>margin-left</li>
+</ul>
+<div>
+<p id="one">When ONE value is specified, it applies the same margin to <b> all four sides </b></p>
+<p id="two">When TWO values are specified, the first value applies to  <b> top and bottom </b>, the second to the <b>left and right</b></p>
+<p id="three">When three values are specified, the first value applies to the <b>top</b>, and the second to the <b> left and right </b> the third to the <b>bottom</b></p>
+<p id="four">When four values are specified, the margins apply to the <b> top, right ,bottom and left</b> on the order (clockwise) respectively</p>
+</div>
+<hr>
+!--<p>Horizontally Centering an Element</p> -->\<img src="projects html & css/img/dv-2025.jpg"><br>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
