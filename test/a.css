@@ -24,6 +24,9 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
+nav a:hover{
+  color: orange;
+}
 
 main {
   padding: 20px;
