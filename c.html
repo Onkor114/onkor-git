@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+  <div id="application">
+    <h2>Submit Your Application</h2>
+    <form id="application-form">
+      <div class="form-group">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required placeholder="Sonkor Ahmed">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required placeholder="Onkor@example.com">
+      </div>
+      <div class="form-group">
+
+        <label for="phone">Phone</label><br>
+        <input type="tel" id="phone" name="phone" required placeholder="+251915638836">
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <div class="form-group">
+        <label for="position">Position Applied for</label><br>
+        <select id="position" name="position" required>
+          <option value="">Select an option</option>
+          <option value="Frontend Developer">Frontend Developer</option>
+          <option value="Full Stack Developer">Full Stack Developer</option>
+          <option value="Cyper Security">Cyper Security</option>
+          <option value="M Engineer">M Engineer</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="resume">Upload Resume</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+      </div>
+
+      <div class="form-group">
+        <label for="coverletter">Cover Letter</label><br>
+        <textarea id="coverletter" name="coverletter" rows="15" required
+          placeholder="Explain what makes you suitable for the job.."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="terms">
+          <input type="checkbox" id="terms" name="terms" required>
+          I agree to the terms and conditions
+        </label>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

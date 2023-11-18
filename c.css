@@ -1,0 +1,46 @@
+#application {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+  border: 1px solid black;
+}
+
+.form-group {
+  margin: 16px 0;
+}
+
+.form-group input,
+textarea,
+select {
+  font-size: 1.25rem;
+  border-radius: 4px;
+  border: 1px solid gray;
+  margin-top: 4px;
+  padding: 10px;
+  min-width: 360px;
+}
+
+.form-group textarea {
+  width: 98.3%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  min-width: 0;
+}
+
+#application-form label {
+  font-weight: bold;
+}
+
+#application-form input[type="submit"] {
+  background-color: #2563EB;
+  width: 120px;
+  min-width: 0;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
