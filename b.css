@@ -1,104 +1,131 @@
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Inter;
 }
-a{
+
+a {
   text-decoration: none;
 }
-#navbar{
+
+#navbar {
   padding: 8px;
   margin: 0;
 }
-#img{
+
+#img {
   width: 120px;
   position: relative;
   top: 30;
 }
-h1{
+
+h1 {
   text-align: center;
   color: darkblue;
 }
-#banner{
+
+#banner {
   width: 100%;
   height: 280px;
 }
-#About{
+
+#About {
   display: flex;
   max-width: 1355px;
   margin: 0 auto;
   padding-right: 8px;
 }
-#description{
+
+#description {
   width: 50%;
   padding: 0 8px;
 }
-#description p{
+
+#description p {
   margin: 0px;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
-.add li{
-  padding: 16px;
+
+.add li {
+  padding: 10px;
 }
-#team{
+
+#team {
   width: 50%;
 }
-#team-img{
+
+#team-img {
   border-radius: 25px;
   width: 100%;
 }
-#jobs-table{
-    width: 100%;
-    border: 1px solid gray;
-    border-collapse: collapse;
+
+#jobs-table {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
 }
 
-.jobs-header-row th{
+.jobs-header-row th {
   border: 1px solid gray;
   padding: 8px;
   background-color: aliceblue;
   text-align: center;
 }
-.jobs-data-row td{
+
+.jobs-data-row td {
   border: 1px solid grey;
   padding: 8px;
 }
 
-#jobs-table tr:nth-child(odd){
+#jobs-table tr:nth-child(odd) {
   background-color: ghostwhite;
 }
-h2{
+
+h2 {
   text-align: center;
 }
-#jobs{
+
+#jobs {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 8px;
 }
-h3{
+
+h3 {
   margin-bottom: 4px;
   margin-top: 0;
 }
-.apply{
+
+.apply {
   float: right;
 }
-.footer{
+
+.footer {
   background-color: ghostwhite;
   padding: 8px;
   margin-top: 32px;
   text-align: center;
 }
-.footer-links{
+
+.footer-links {
   list-style: none;
 }
-.footer-links li{
+
+.footer-links li {
   display: inline;
   margin: 0 16px;
 }
-.coppy{
+
+.coppy {
   color: gray;
 }
